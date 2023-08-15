@@ -21,9 +21,8 @@ export function MainNavigator(){
                 }
                 return (<Icon name={ iconName } color={ color } size={26}/>);
             },
-
-            tabBarStyle:{ backgroundColor: '#38445d', height: 60,},
-            tabBarIndicatorStyle:{ backgroundColor: '#0053ff', height: 6, borderRadius: 100, marginBottom: 10, width: 50, marginLeft: 45},
+            tabBarStyle:{ backgroundColor: '#38445d', height: 60, elevation: 3, shadowColor: 'black'},
+            tabBarIndicatorStyle:{ backgroundColor: '#0053ff', height: 6, borderRadius: 100, width: 50, marginBottom: 8, marginLeft: 47},
             tabBarActiveTintColor: '#ffffff',
             tabBarInactiveTintColor: '#a9a9a9',
             tabBarPressColor: 'transparent',
